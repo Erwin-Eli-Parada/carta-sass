@@ -1,6 +1,7 @@
 :root {
   --color1: #F8B78B;
   --color2: #f5904d;
+  --color3: rgba(255, 0, 0, 1);
 }
 
 html {
@@ -9,8 +10,11 @@ html {
 
 body {
   font-family: sans-serif;
-  background-color: var(--color1);
+  background-color: var(--color3);
   margin: 0;
+  background-image: url(../img/CurveLine.svg), url(../img/CurveLineDown.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left 0 top 0, right 0 bottom 0;
 }
 
 .container {
